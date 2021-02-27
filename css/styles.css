@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 /************** HEADER *****************/
 #header-img {
     width: 150px;
@@ -39,17 +43,18 @@ a {
 
 /************** MAIN *****************/
 .main-info {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: center; */
 }
 
 
 img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
+
 /************** VIDEO *****************/
 .video-page {
     height: 500px;
