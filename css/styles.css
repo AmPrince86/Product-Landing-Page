@@ -1,7 +1,60 @@
 /************** HEADER *****************/
+#header-img {
+    width: 150px;
+    height: 150px;
+}
 
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav-bar {
+    width: 100%;
+}
 
 /************** FORM *****************/
+.sign-up-page {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-up-form {
+    text-align: center;
+}
+
 /************** MAIN *****************/
+.main-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+img {
+    width: 40px;
+    height: 40px;
+}
 /************** VIDEO *****************/
+.video-page {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /************** FOOTER *****************/
