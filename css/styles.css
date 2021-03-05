@@ -1,9 +1,50 @@
-* {
+/* * {
     box-sizing: border-box;
+} */
+
+body {
+    background-color: #262626;
+    font-family: helvetica;
+}
+/************** HEADER *****************/
+div.header-img {
+    width: 100%;
+    background-color: #1a1a1a;
+    overflow: hidden;
+    position: fixed;
+    
 }
 
-/************** HEADER *****************/
 #header-img {
+    width: 350px;
+    filter: invert(100%);
+    margin: auto;
+    display: block;
+}
+
+div.nav-bar {
+    overflow: hidden;
+    position: fixed;
+    background-color: #1a1a1a;
+    width: 100%;
+    top: 58px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    padding: 14px 50px;
+    float: left;
+    transition: .5s ease;
+}
+
+.nav-link:hover {
+    background-color: #008fb3;
+}
+
+/* #header-img {
     width: 150px;
     height: 150px;
 }
@@ -12,8 +53,8 @@ header {
     width: 100%;
     display: flex;
     align-items: center;
-    position: fixed;
-    background-color: grey;
+    
+
 }
 
 ul {
@@ -29,10 +70,10 @@ a {
 
 #nav-bar {
     width: 100%;
-}
+} */
 
 /************** FORM *****************/
-.sign-up-page {
+/* .sign-up-page {
     height: 350px;
     display: flex;
     justify-content: center;
@@ -40,7 +81,7 @@ a {
 }
 .sign-up-form {
     text-align: center;
-}
+} */
 
 /************** MAIN *****************/
 .main-info {
@@ -51,16 +92,16 @@ a {
 }
 
 
-img {
+/* img {
     width: 30px;
     height: 30px;
-}
+} */
 
 /************** VIDEO *****************/
-.video-page {
+/* .video-page {
     height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 /************** FOOTER *****************/
