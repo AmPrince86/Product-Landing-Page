@@ -1,7 +1,3 @@
-/* * {
-    box-sizing: border-box;
-} */
-
 body {
     background-color: #262626;
     font-family: helvetica;
@@ -27,7 +23,7 @@ div.nav-bar {
     position: fixed;
     background-color: #1a1a1a;
     width: 100%;
-    top: 58px;
+    top: 47px;
 }
 
 .nav-link {
@@ -44,53 +40,76 @@ div.nav-bar {
     background-color: #008fb3;
 }
 
-/* #header-img {
-    width: 150px;
-    height: 150px;
-}
-
-header {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    
-
-}
-
-ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    
-}
-
-a {
-    text-decoration: none;
-}
-
-#nav-bar {
-    width: 100%;
-} */
-
 /************** FORM *****************/
-/* .sign-up-page {
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.sign-up-form {
+.title {
+    margin-top: 150px;
+    color: #005fb3;
     text-align: center;
-} */
-
-/************** MAIN *****************/
-.main-info {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center; */
 }
 
+#email {
+    display: block;
+    margin: auto;
+    width:  180px;
+    padding: 8px;
+    border-radius: 50px;
+    border: none;
+    background-color: #008f13;
+    font-size: 15px;
+    transition: width .5s ease;
+}
+
+#email::placeholder {
+    color: white;
+    opacity: 80%;
+    text-align: center;
+}
+
+#email:hover {
+    background-color: #008fb3;
+    width: 300px;
+
+}
+
+#submit {
+    display: block;
+    margin: auto;
+    padding: 8px;
+    border: none;
+    border-radius: 50px;
+    width: 80px;
+    background-color: #008f13;
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+    transition: .5s ease;
+}
+
+#submit:hover {
+    background-color: #008fb3;
+}
+
+/************** FEATURE *****************/
+.text {
+    width: 700px;
+    margin: auto;
+    color: #008fb3;
+    margin-top: 100px;
+    transition: .5s ease;
+}
+
+.text:hover {
+    text-shadow: 0px 0px 10px;
+}
+
+#video {
+    margin: auto;
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #008fb3;
+    padding: 5px;
+}
 
 /* img {
     width: 30px;
