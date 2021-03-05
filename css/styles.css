@@ -164,7 +164,22 @@ div.product-description {
 
 /************** FOOTER *****************/
 .footer-nav {
-    text-align: right;
+  overflow: hidden;
+   color: white;
+   box-sizing: border-box;
+   background-color: #1a1a1a;
+   text-align: right;
+    
+}
+
+.foot-li {
+    display: inline-block;
+    list-style-type: none; 
+    padding: 0 25px;
+}
+
+.copy {
+    padding-right: 25px;
 }
 
 
