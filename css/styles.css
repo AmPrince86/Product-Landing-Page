@@ -1,6 +1,7 @@
 body {
     background-color: #262626;
     font-family: helvetica;
+    margin: auto;
 }
 /************** HEADER *****************/
 div.header-img {
@@ -23,7 +24,7 @@ div.nav-bar {
     position: fixed;
     background-color: #1a1a1a;
     width: 100%;
-    top: 47px;
+    top: 40px;
 }
 
 .nav-link {
@@ -43,7 +44,7 @@ div.nav-bar {
 /************** FORM *****************/
 .title {
     margin-top: 150px;
-    color: #005fb3;
+    color: #008fb3;
     text-align: center;
 }
 
@@ -54,7 +55,7 @@ div.nav-bar {
     padding: 8px;
     border-radius: 50px;
     border: none;
-    background-color: #008f13;
+    background-color: #2e9bb6;
     font-size: 15px;
     transition: width .5s ease;
 }
@@ -66,7 +67,7 @@ div.nav-bar {
 }
 
 #email:hover {
-    background-color: #008fb3;
+    background-color: #2e9bb6;
     width: 300px;
 
 }
@@ -78,7 +79,7 @@ div.nav-bar {
     border: none;
     border-radius: 50px;
     width: 80px;
-    background-color: #008f13;
+    background-color: #008fb3;
     margin-top: 20px;
     color: white;
     font-size: 15px;
@@ -94,7 +95,7 @@ div.nav-bar {
     width: 700px;
     margin: auto;
     color: #008fb3;
-    margin-top: 100px;
+    margin-top: 50px;
     transition: .5s ease;
 }
 
@@ -102,6 +103,12 @@ div.nav-bar {
     text-shadow: 0px 0px 10px;
 }
 
+/* img {
+    width: 30px;
+    height: 30px;
+} */
+
+/************** VIDEO *****************/
 #video {
     margin: auto;
     display: block;
@@ -111,16 +118,72 @@ div.nav-bar {
     padding: 5px;
 }
 
-/* img {
-    width: 30px;
-    height: 30px;
-} */
-
-/************** VIDEO *****************/
-/* .video-page {
-    height: 500px;
+/************** PRICING *****************/
+div.flex-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-} */
+    text-align: center;
+}
+
+div.products {
+    background-color: white;
+    margin: 20px;
+    transition: .5s ease;
+}
+
+.products:hover {
+    box-shadow: 0px 0px 5px #008fb3;
+
+}
+
+div.product-title {
+    padding: 10px;
+    background-color: #008fb3;
+    color: white;
+    text-align: center;
+}
+
+div.product-description {
+    color: #008fb3;
+}
+
+#product-submit {
+    background-color: #008fb3;
+    border: none;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    transition: .5s ease;
+}
+
+#product-submit:hover {
+    background-color: #008f13;
+}
+
 /************** FOOTER *****************/
+.footer-nav {
+    text-align: right;
+}
+
+
+
+
+/************** MEDIA QUERIES *****************/
+
+@media screen and (max-width: 768px ) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .nav-link {
+        width: 100%;
+        margin: auto;
+    }
+
+    .text {
+        width: 400px;
+    }
+}
+                        
